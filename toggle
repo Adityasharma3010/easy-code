@@ -1,4 +1,4 @@
-```js
+```css
 jQuery(document).ready(function(){
 	
 	jQuery(".games-toggle-btn img").click(function(){
