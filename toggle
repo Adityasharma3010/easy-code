@@ -1,4 +1,5 @@
-```css
+```js
+
 jQuery(document).ready(function(){
 	
 	jQuery(".games-toggle-btn img").click(function(){
@@ -6,4 +7,3 @@ jQuery(document).ready(function(){
 		jQuery(".games-toggle-btn").toggleClass("open");
 	});
 });
-
