@@ -1,16 +1,15 @@
-```js
-<style>
-        
+```css
         #clock {
             font-size: 16px;
 			font-weight:500;
 			line-height: 19.36px;
             color: #fff;
         }
-    </style>
+```
+```html
    <div id="clock">00:00:00</div>
-
-    <script>
+```
+```js
         function updateClock() {
             const now = new Date();
             const hours = String(now.getHours()).padStart(2, '0');
@@ -22,4 +21,4 @@
 
         setInterval(updateClock, 1000);
         updateClock(); 
-    </script>
+```
